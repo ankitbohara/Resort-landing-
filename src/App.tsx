@@ -45,6 +45,10 @@ export default function App() {
       alert('Please fill out all details for your reservation.')
       return
     }
+
+    const whatsappMessage = `Hello Theharav, I would like to book a stay.\n\nName: ${fullName}\nEmail: ${email}\nPhone: ${phone}\nSuite: ${selectedSuite}\nCheck-In: ${checkIn}\nCheck-Out: ${checkOut}\nGuests: ${guestsCount}`
+    const whatsappUrl = `https://wa.me/917688969696?text=${encodeURIComponent(whatsappMessage)}`
+    window.open(whatsappUrl, '_blank')
     setIsSubmitted(true)
   }
 

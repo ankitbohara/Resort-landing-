@@ -22,7 +22,7 @@ export default function Hero({ onCheckAvailability }: HeroProps) {
   }
 
   return (
-    <header className="relative h-screen w-full flex items-center justify-center overflow-hidden">
+    <header className=" pt-64 md:pt-2 relative h-screen w-full flex items-center justify-center overflow-hidden">
       {/* Background Image with Slow Parallax/Zoom */}
       <img
         alt="Theharav Resort Hero"
