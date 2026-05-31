@@ -126,11 +126,11 @@ export default function Navbar({ onReserveClick }: NavbarProps) {
 
           <div className="flex flex-col gap-4">
             <a
-              href="tel:+919876543210"
+              href="tel:+9176889 69696"
               className="flex items-center gap-3 font-body-md text-xs text-on-surface-variant py-2"
             >
               <PhoneCall size={16} className="text-primary" />
-              +91 98765 43210
+              +91 76889 69696
             </a>
             <button
               onClick={() => {

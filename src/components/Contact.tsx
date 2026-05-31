@@ -38,10 +38,10 @@ export default function Contact() {
               <div>
                 <p className="font-headline-lg text-lg text-on-surface mb-2 font-semibold">Reservations</p>
                 <a
-                  href="tel:+919876543210"
+                  href="tel:+9176889 69696"
                   className="font-body-lg text-sm md:text-base text-on-surface-variant hover:text-primary transition-colors leading-relaxed block"
                 >
-                  +91 98765 43210
+                  +91 76889 69696
                 </a>
               </div>
             </div>
@@ -77,7 +77,7 @@ export default function Contact() {
 
       {/* Floating WhatsApp Button */}
       <a
-        href="https://wa.me/919876543210"
+        href="https://wa.me/917688969696"
         target="_blank"
         rel="noreferrer"
         className="fixed bottom-8 right-8 z-50 bg-[#25D366] hover:bg-[#20ba5a] text-white p-4 rounded-full shadow-2xl hover:scale-110 active:scale-95 transition-all duration-300 group flex items-center justify-center cursor-pointer"
